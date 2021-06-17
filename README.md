@@ -5,16 +5,12 @@ so that no two queens cross each other, thus a solution requires that no two que
 row, column, or diagonal. The 8-queens puzzle is an example of the more general n-queens puzzle of
 placing n non-attacking queens on an n×n chessboard, for which solutions exist for all natural numbers
 n with the exception of n = 2 and n = 3.
-For Section II, download the template code provided alongside the assignment document.
 
-Files to Edit and Submit: You will fill in the section of GA.py (comments are
-provided on where to add which functionality) for the assignment. You should
-submit this file with your code and comments.
-To implement the code for local search based on Genetic Algorithm.
+To implement the code for local search based on Genetic Algorithm(GA).
 
-Question : Implement GA 
-● Solve the n-queen problem using Genetic Algorithm.
-● Take 5 different values for the hyperparameters viz. number of queens, population size,
+**Implemented GA**
+ Solve the n-queen problem using Genetic Algorithm.
+ Take 5 different values for the hyperparameters viz. number of queens, population size,
 crossover probability and mutation probability and observe the changes in the best fitness
 value in the population across different generations for each combination of number of queens,
 crossover and mutation probability.
